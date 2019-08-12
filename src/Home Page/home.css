@@ -1,0 +1,86 @@
+.vitaminContainerDiv {
+    display: grid;
+    grid-gap: 24px;
+
+}
+
+.containerDivOne {
+    margin: 6px;
+    display: grid;
+    grid-gap: 6px;
+    grid-template-areas: "labelStyle inputStyle"
+                         "progressStyle buttonStyle"
+                         "smallStyle smallStyle ";
+}
+
+.containerDivTwo {
+    margin: 6px;
+    display: grid;
+    grid-gap: 6px;
+    grid-template-areas: "labelStyle inputStyle"
+                         "progressStyle buttonStyle"
+                         "smallStyle smallStyle ";
+}
+
+.containerDivThree {
+    margin: 6px;
+    display: grid;
+    grid-gap: 6px;
+    grid-template-areas: "labelStyle inputStyle"
+                         "progressStyle buttonStyle"
+                         "smallStyle smallStyle ";
+}
+
+.containerDivFour {
+    margin: 6px;
+    display: grid;
+    grid-gap: 6px;
+    grid-template-areas: "labelStyle inputStyle"
+                         "progressStyle buttonStyle"
+                         "smallStyle smallStyle ";
+}
+
+.containerDivFive {
+    margin: 6px;
+    display: grid;
+    grid-gap: 6px;
+    grid-template-areas: "labelStyle inputStyle"
+                         "progressStyle buttonStyle"
+                         "smallStyle smallStyle ";
+}
+
+.containerDivSix {
+    margin: 6px;
+    display: grid;
+    grid-gap: 6px;
+    grid-template-areas: "labelStyle inputStyle"
+                         "progressStyle buttonStyle"
+                         "smallStyle smallStyle ";
+}
+
+.labelStyle {
+    color: #fff;
+    grid-area: labelStyle;
+}
+
+.smallStyle {
+    grid-area: smallStyle;
+}
+
+.progressStyle {
+    grid-area: progressStyle;
+}
+
+.inputStyle {
+    grid-area: inputStyle;
+    width: 30px;
+    margin-left: 10px;
+}
+
+.buttonStyle {
+    grid-area: buttonStyle;
+}
+
+input {
+    width: 30px;
+}
